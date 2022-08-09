@@ -1,0 +1,118 @@
+#root {
+  width: 100%;
+  text-align: center;
+  background: 	#111111;
+}
+
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.user_div{
+  background-image: url(./Image/Second.png);
+  width: 98%;
+  height: 98%;
+  position:absolute;
+  background-size: cover;
+  
+}
+
+.user_form{
+  margin-top: 20rem;
+}
+
+.user_form input{
+  font-size: 3rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.user_form button{
+  font-size: 3rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
+
+.user_form:hover button{
+  font-size: 3.1rem;
+}
+
+.character{
+  font-size: 30px;
+  margin-top: 2rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: #380438	;
+}
+
+.pokemon h1{
+  font-size: 5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pokemon p{
+  font-size: 3.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form{
+  text-align: center;
+  background: 	#111111;
+}
+
+.form input{
+  font-size: 1.6rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.form button{
+  font-size: 1.6rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
+
+ select{
+  font-size: 1.6rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
+option{
+  font-size: 1.6rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
+
+.details{
+  color: white;
+  height: 100%;
+  width: 20%;
+}
